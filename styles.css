@@ -16,3 +16,8 @@ body {
     height: 120px;
     justify-content: space-between;
 }
+
+.sets {
+    width: 300px;
+    margin: 20px auto;
+}
