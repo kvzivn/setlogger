@@ -1,16 +1,22 @@
 body {
     font-family: "open sans", sans-serif;
-    
+    background-color: lightcyan;
 }
 
+a {
+    color: black;
+    font-weight: bold;
+}
 
+a:hover{
+    color: blue;
+}
 
 .title {
     text-align: center;
     margin-top: 0;
-    
-
 }
+   
 
 .inputs {
     display: flex;
@@ -31,17 +37,17 @@ ol {
     padding: 0;
     counter-reset: item;
     
-  }
+}
   
-  ol > li {
+ol > li {
     margin: 0;
     padding: 0 0 0 2em;
     text-indent: -2em;
     list-style-type: none;
     counter-increment: item;
-  }
+}
   
-  ol > li:before {
+ol > li:before {
     display: inline-block;
     width: 1em;
     padding-right: 0.5em;
@@ -49,26 +55,99 @@ ol {
     text-align: right;
     content: counter(item) ".";
     margin-bottom: 10px;
-  }
+}
 
-  .intro1 {
-    text-align: center;
-  }
   
-  .food {
-      display: block;
-      margin-left: auto;
-      margin-right: auto;
-      height: 300px;
-      width: 65%;
-  }
+.food {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    height: 300px;
+    width: 65%;
+}
 
-  p.tab1 {
-      margin-bottom: 50px;
-  }
+p {
+    margin-bottom: 10px;
+}
 
-  p {
-      margin-bottom: 10px;
+    p.tab1 {
+        margin-bottom: 50px;
+}
 
-  }
+    p.intro1 {
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: bold;
+        padding: 10px;
+}
+
+
+
+.container {
+    width: 800px;
+    margin: auto;
+}
+
+
+    .container p {
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-weight: bold;
+        padding: 10px;
+        color: black;
+}
+
+.box-1 {
+    width: 80%;
+    margin: auto;
+    border: 5px lightblue solid;
+    background-image:url('images/bild2.jpg');
+    background-position: center right;
+    height: 200px;
+    margin-bottom: 50px;
+}
+
+.box-1 h2 {
+    text-align: left;
+    margin-left: 10px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.box-2 {
+    width: 60%;
+}
+
+.box-3 {
+    width: 33.3%;
+    border: 2px lightblue solid;
+    font-weight: bold;
+    float: right;
+    
+    
+}
+
+
+#navbar{
+    background-color: lightskyblue;
+    height: 30px;
+      
+}
+
+    #navbar a {
+        color: white;
+      
+}
+ 
+#main-header {
+    background-color: lightskyblue;
+    color: white;
+    font-size: 40px;
+    line-height: 1.6em;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+    #navbar a:hover{
+        color: blue;
+}
+ 
+  
 
